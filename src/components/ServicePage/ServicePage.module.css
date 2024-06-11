@@ -1,0 +1,109 @@
+.service__preview {
+	height: 31.875rem;
+	/* background: lightgray 0px 1.774px / 100% 250.98% no-repeat; */
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.preview__title {
+	font-family: 'Object Sans';
+	font-size: 7.94463rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 91.5%; /* 7.26938rem */
+	letter-spacing: -0.23831rem;
+
+	background: linear-gradient(83deg, #595959 10.19%, #1d1d1d 65.16%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	width: 54.12288rem;
+}
+
+.service__text {
+	margin: 6.85rem 3rem;
+	color: #1d1d1d;
+	font-family: 'Object Sans';
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 122%; /* 1.83rem */
+	letter-spacing: -0.045rem;
+}
+
+.info__block {
+	width: 100%;
+	background: rgba(217, 217, 217, 0.3);
+
+	margin-bottom: 6.25rem;
+	padding: 3rem 9rem 6rem;
+
+	display: flex;
+	gap: 3rem;
+	justify-content: space-between;
+}
+
+.side {
+	display: flex;
+	flex-direction: column;
+	gap: 120px;
+}
+
+.left__side_title {
+	color: #1d1d1d;
+	font-family: 'Object Sans';
+	font-size: 2.5rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 118.5%; /* 2.9625rem */
+	letter-spacing: -0.075rem;
+	position: relative;
+}
+
+.left__side_title::after {
+	content: '';
+	width: 100%;
+	height: 0.3rem;
+	background: orange;
+	position: absolute;
+	bottom: -0.5rem;
+	left: 0;
+}
+
+.side__title {
+	color: #1d1d1d;
+	font-family: 'Object Sans';
+	font-size: 2.5rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 118.5%; /* 2.9625rem */
+	letter-spacing: -0.075rem;
+	position: relative;
+}
+
+.side__title::after {
+	content: '';
+	width: 16.5rem;
+	height: 0.3125rem;
+	background: #fd5f34;
+	position: absolute;
+	bottom: -0.5rem;
+	left: 0;
+}
+
+.green__title::after {
+	background: #8fe208;
+	width: 13.75rem;
+}
+
+.list__item {
+	color: #1d1d1d;
+	font-family: 'Object Sans';
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 135.5%;
+	letter-spacing: -0.06rem;
+}
